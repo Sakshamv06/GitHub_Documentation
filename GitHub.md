@@ -92,7 +92,7 @@ Often, repositories include a README file, a file with information about your pr
 
 GitHub lets you add a README file at the same time you create your new repository. GitHub also offers other common options such as a license file, but you do not have to select any of them now.
 
-Your '''hello-world''' repository can be a place where you store ideas, resources, or even share and discuss things with others.
+Your ```hello-world``` repository can be a place where you store ideas, resources, or even share and discuss things with others.
 
 1. In the upper-right corner of any page, select , then click New repository.
 ![image](https://docs.github.com/assets/cb-29762/mw-1440/images/help/repository/repo-create-global-nav-update.webp)
@@ -111,11 +111,11 @@ Your '''hello-world''' repository can be a place where you store ideas, resource
 
 Branching lets you have different versions of a repository at one time.
 
-By default, your repository has one branch named '''main''' that is considered to be the definitive branch. You can create additional branches off of '''main''' in your repository.
+By default, your repository has one branch named `main` that is considered to be the definitive branch. You can create additional branches off of `main` in your repository.
 
-Branching is helpful when you want to add new features to a project without changing the main source of code. The work done on different branches will not show up on the main branch until you merge it, which we will cover later in this guide. You can use branches to experiment and make edits before committing them to '''main'''.
+Branching is helpful when you want to add new features to a project without changing the main source of code. The work done on different branches will not show up on the main branch until you merge it, which we will cover later in this guide. You can use branches to experiment and make edits before committing them to `main`.
 
-When you create a branch off the '''main''' branch, you're making a copy, or snapshot, of '''main''' as it was at that point in time. If someone else made changes to the '''main''' branch while you were working on your branch, you could pull in those updates.
+When you create a branch off the `main` branch, you're making a copy, or snapshot, of `main` as it was at that point in time. If someone else made changes to the `main` branch while you were working on your branch, you could pull in those updates.
 
 This diagram shows:
 
@@ -131,16 +131,16 @@ This diagram shows:
 2. Above the file list, click the dropdown menu that says main.
 ![image](https://docs.github.com/assets/cb-16584/mw-1440/images/help/branches/branch-selection-dropdown-global-nav-update.webp)
 
-3. Type a branch name, '''readme-edits''', into the text box.
+3. Type a branch name, ```readme-edits```, into the text box.
 
 4. Click **Create branch: readme-edits from main**.
 ![image](https://docs.github.com/assets/cb-31023/mw-1440/images/help/repository/new-branch.webp)
 
-Now you have two branches, '''main''' and '''readme-edits'''. Right now, they look exactly the same. Next you'll add changes to the new '''readme-edits''' branch.
+Now you have two branches, `main` and ```readme-edits```. Right now, they look exactly the same. Next you'll add changes to the new ```readme-edits``` branch.
 
 #### Step 3: Make and commit changes
 
-When you created a new branch in the previous step, GitHub brought you to the code page for your new 'readme-edits branch', which is a copy of 'main'.
+When you created a new branch in the previous step, GitHub brought you to the code page for your new 'readme-edits branch', which is a copy of `main`.
 
 You can make and save changes to the files in your repository. On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes so that other contributors can understand what you’ve done and why.
 
@@ -151,11 +151,11 @@ You can make and save changes to the files in your repository. On GitHub, saved 
 5. In the "Commit changes" box, write a commit message that describes your changes.
 6. Click Commit changes.
 
-These changes will be made only to the README file on your 'readme-edits' branch, so now this branch contains content that's different from 'main'.
+These changes will be made only to the README file on your `readme-edits` branch, so now this branch contains content that's different from `main`.
 
 #### Step 4: Open a pull request
 
-Now that you have changes in a branch off of 'main', you can open a pull request.
+Now that you have changes in a branch off of `main`, you can open a pull request.
 
 Pull requests are the heart of collaboration on GitHub. When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in different colors.
 
@@ -163,11 +163,11 @@ As soon as you make a commit, you can open a pull request and start a discussion
 
 In this step, you'll open a pull request in your own repository and then merge it yourself. It's a great way to practise the GitHub flow before working on larger projects.
 
-1. Click the Pull requests tab of your '''hello-world''' repository.
+1. Click the Pull requests tab of your `hello-world` repository.
 
 2. Click New pull request.
 
-3. In the Example Comparisons box, select the branch you made, '''readme-edits''', to compare with '''main''' (the original).
+3. In the Example Comparisons box, select the branch you made, ```readme-edits```, to compare with `main` (the original).
 
 4. Look over your changes in the diffs on the Compare page, make sure they're what you want to submit.
 ![image](https://docs.github.com/assets/cb-32937/mw-1440/images/help/repository/diffs.webp)
@@ -182,16 +182,16 @@ When you start collaborating with others, this is the time you'd ask for their r
 
 #### Step 5: Merge your pull request
 
-In this final step, you will merge your 'readme-edits' branch into the 'main' branch. After you merge your pull request, the changes on your 'readme-edits' branch will be incorporated into 'main'.
+In this final step, you will merge your `readme-edits` branch into the `main` branch. After you merge your pull request, the changes on your `readme-edits` branch will be incorporated into `main`.
 
-Sometimes, a pull request may introduce changes to code that conflict with the existing code on '''main'''. If there are any conflicts, GitHub will alert you about the conflicting code and prevent merging until the conflicts are resolved. You can make a commit that resolves the conflicts or use comments in the pull request to discuss the conflicts with your team members.
+Sometimes, a pull request may introduce changes to code that conflict with the existing code on `main`. If there are any conflicts, GitHub will alert you about the conflicting code and prevent merging until the conflicts are resolved. You can make a commit that resolves the conflicts or use comments in the pull request to discuss the conflicts with your team members.
 
 In this walk-through, you should not have any conflicts, so you are ready to merge your branch into the main branch.
 
 1. At the bottom of the pull request, click Merge pull request to merge the changes into main.
 2. Click Confirm merge. You will receive a message that the request was successfully merged and the request was closed.
 3. Click Delete branch. Now that your pull request is merged and your changes are on main, you can safely delete the readme-edits branch. If you want to make more changes to your project, you can always create a new branch and repeat this process.
-4. Click back to the Code tab of your hello-world repository to see your published changes on main.
+4. Click back to the Code tab of your hello-world repository to see your published changes on `main`.
 
 ####Conclusion
 
@@ -374,7 +374,7 @@ This tutorial focuses on downloading a repository's files to your local computer
 
 1. Navigate to any repository of any person or organization.
 
-2. Above the list of files, click **<> Code**.
+2. Above the list of files, click **Code**.
 ![image](https://docs.github.com/assets/cb-13128/mw-1440/images/help/repository/code-button.webp)
 3. Click  **Download ZIP**.
 
