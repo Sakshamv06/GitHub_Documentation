@@ -11,7 +11,7 @@ This  is a documentation of GitHub for the newbies who have no idea of what GitH
 5. [Finding inspiration on Github](#Finding-inspiration-on-GitHub)
 6. [Downloading files from GitHub](#Downloading-files-from-GitHub)
 7. [Uploading a project to GitHub](#Uploading-a-project-to-GitHub)
-8. [Git GitHub learning resources](#Git-and-GitHub-learning-resources)
+8. [Git and GitHub learning resources](#Git-and-GitHub-learning-resources)
 
 
 ## About GitHub and Git
