@@ -2,14 +2,14 @@
 This  is a documentation of GitHub for the newbies who have no idea of what GitHub is, in this documentation we will start with the basics like what Are GitHub and Git, creating an account on GitHub, a hello world exercise to learn Github's pull request workflow, setting up your profile, finding inspiration on GitHub, Downloading files from GitHub, uploading a project to GitHub, git, and GitHub learning resources. **Let's start your journey** 
 
 ## Table of content 
-1. [About GitHub and Git](#About)
-2. [Creating an account on GitHub](#Creating an account on GitHub)
-3. [Hello World](#Hello World)
-4. [Setting up your profile](#Setting up your Profile)
-5. [Finding inspiration on Github](#Finding inspiration on GitHub)
-6. [Downloading files from GitHub](#Downloading files from GitHub)
-7. [Uploading a project to GitHub](#Uploading a project to GitHub)
-8. [Git GitHub learning resources](#Git and GitHub learning resources)
+1. [About GitHub and Git](#About-GitHub-and-Git)
+2. [Creating an account on GitHub](#Creating-an-account-on-GitHub)
+3. [Hello World](#Hello-World)
+4. [Setting up your profile](#Setting-up-your-Profile)
+5. [Finding inspiration on Github](#Finding-inspiration-on-GitHub)
+6. [Downloading files from GitHub](#Downloading-files-from-GitHub)
+7. [Uploading a project to GitHub](#Uploading-a-project-to-GitHub)
+8. [Git GitHub learning resources](#Git-and-GitHub-learning-resources)
 
 
 ## About GitHub and Git
