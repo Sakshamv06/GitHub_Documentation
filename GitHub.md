@@ -498,7 +498,7 @@ git push -u origin main
 
 ```
 
-## Git GitHub learning resources
+## Git and GitHub learning resources
 
 #### Using GitHub
 
