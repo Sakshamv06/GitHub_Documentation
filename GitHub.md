@@ -1,8 +1,8 @@
 # GitHub for Beginners
-This  is a documentation of GitHub for the newbies who have no idea of what GitHub is, in this documentation we will start with the basics like what Is GitHub and Git, creating an account on GitHub, a hello world exersise to learn Github's pull requset workflow, setting up your profile, finding inspiration on GitHub, Downloading files from gitHub, uploading a project to GitHub, git and GitHub learning resources. **Let's start your journey** 
+This  is a documentation of GitHub for the newbies who have no idea of what GitHub is, in this documentation we will start with the basics like what Are GitHub and Git, creating an account on GitHub, a hello world exercise to learn Github's pull request workflow, setting up your profile, finding inspiration on GitHub, Downloading files from GitHub, uploading a project to GitHub, git, and GitHub learning resources. **Let's start your journey** 
 
 ## Table of content 
-1. [About GitHub and Git](#About GitHub and Git)
+1. [About GitHub and Git](#About)
 2. [Creating an account on GitHub](#Creating an account on GitHub)
 3. [Hello World](#Hello World)
 4. [Setting up your profile](#Setting up your Profile)
@@ -38,7 +38,7 @@ Typically, to do this in a Git-based workflow, you would:
 - Let Git intelligently merge your specific changes back into the main copy of files, so that your changes don't impact other people's updates.
 - Let Git keep track of your and other people's changes, so you all stay working on the most up-to-date version of the project.
 
-### How do Git and GitHb work together?
+### How do Git and GitHub work together?
 
 When you upload files to GitHub, you'll store them in a "Git repository." This means that when you make changes (or "commits") to your files in GitHub, Git will automatically start to track and manage your changes.
 
@@ -61,11 +61,11 @@ To get started with GitHub, you'll need to create a free personal account on Git
 Every person who uses GitHub.com signs in to a personal account. Your personal account is your identity on GitHub.com and has a username and profile.
 
 ### Signing up for a new Personal account
-**1**. Navigate to https://github.com/.
-**2**. Click **Sign up**.
-**3**. Follow the prompts to create your personal account.
+1. Navigate to https://github.com/.
+2. Click **Sign up**.
+3. Follow the prompts to create your personal account.
 
-During sign up, you'll be asked to verify your email address. Without a verified email address, you won't be able to complete some basic GitHub tasks, such as creating a repository.
+During sign-up, you'll be asked to verify your email address. Without a verified email address, you won't be able to complete some basic GitHub tasks, such as creating a repository.
 
 ## Hello World
 
@@ -92,9 +92,9 @@ Often, repositories include a README file, a file with information about your pr
 
 GitHub lets you add a README file at the same time you create your new repository. GitHub also offers other common options such as a license file, but you do not have to select any of them now.
 
-Your ```hello-world``` repository can be a place where you store ideas, resources, or even share and discuss things with others.
+Your ``` hello-world `` repository can be a place where you store ideas, and resources, or even share and discuss things with others.
 
-1. In the upper-right corner of any page, select , then click New repository.
+1. In the upper-right corner of any page, select, then click New repository.
 ![image](https://docs.github.com/assets/cb-29762/mw-1440/images/help/repository/repo-create-global-nav-update.webp)
 
 2. In the "Repository name" box, type hello-world.
@@ -105,7 +105,7 @@ Your ```hello-world``` repository can be a place where you store ideas, resource
 
 5. Select Add a README file.
 
-6. Click Create repository.
+6. Click Create Repository.
 
 #### Step 2: Create a branch
 
@@ -115,13 +115,13 @@ By default, your repository has one branch named `main` that is considered to be
 
 Branching is helpful when you want to add new features to a project without changing the main source of code. The work done on different branches will not show up on the main branch until you merge it, which we will cover later in this guide. You can use branches to experiment and make edits before committing them to `main`.
 
-When you create a branch off the `main` branch, you're making a copy, or snapshot, of `main` as it was at that point in time. If someone else made changes to the `main` branch while you were working on your branch, you could pull in those updates.
+When you create a branch of the `main` branch, you're making a copy, or snapshot, of `main` as it was at that point in time. If someone else made changes to the `main` branch while you were working on your branch, you could pull in those updates.
 
 This diagram shows:
 
 - The main branch
 - A new branch called feature
-- The journey that feature takes before it's merged into main
+- The journey that feature takes before it's merged into the main
 ![image](https://docs.github.com/assets/cb-23923/mw-1440/images/help/repository/branching.webp)
 
 ##### Creating a branch
@@ -145,7 +145,7 @@ When you created a new branch in the previous step, GitHub brought you to the co
 You can make and save changes to the files in your repository. On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes so that other contributors can understand what you’ve done and why.
 
 1. Under the readme-edits branch you created, click the README.md file.
-2. To edit the file, click .
+2. To edit the file, click.
 3. In the editor, write a bit about yourself.
 4. Click Commit changes.
 5. In the "Commit changes" box, write a commit message that describes your changes.
@@ -161,7 +161,7 @@ Pull requests are the heart of collaboration on GitHub. When you open a pull req
 
 As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.
 
-In this step, you'll open a pull request in your own repository and then merge it yourself. It's a great way to practise the GitHub flow before working on larger projects.
+In this step, you'll open a pull request in your own repository and then merge it yourself. It's a great way to practice the GitHub flow before working on larger projects.
 
 1. Click the Pull requests tab of your `hello-world` repository.
 
@@ -169,11 +169,11 @@ In this step, you'll open a pull request in your own repository and then merge i
 
 3. In the Example Comparisons box, select the branch you made, ```readme-edits```, to compare with `main` (the original).
 
-4. Look over your changes in the diffs on the Compare page, make sure they're what you want to submit.
+4. Look over your changes in the diffs on the Compare page, and make sure they're what you want to submit.
 ![image](https://docs.github.com/assets/cb-32937/mw-1440/images/help/repository/diffs.webp)
 5. Click Create pull request.
 
-6. Give your pull request a title and write a brief description of your changes. You can include emojis and drag and drop images and gifs.
+6. Give your pull request a title and write a brief description of your changes. You can include emojis and drag-and-drop images and gifs.
 
 7. Click Create pull request.
 
@@ -272,7 +272,7 @@ In the following steps, we'll create and edit your profile README.
 
 5. Select Initialize this repository with a README.
 
-6. Click Create repository.
+6. Click Create Repository.
 
 ##### Step 2: Edit the README.md file
 1. Click the  next to your profile README.
@@ -290,7 +290,7 @@ In the following steps, we'll create and edit your profile README.
 
 6. Complete some of the prompts on lines 8 to 15, and delete any lines you don't want. For example, add your interests, skills, hobbies, or a fun fact about yourself.
 
-7. Now, toggle to "Preview". You should see your completed prompts render as a bulleted list.
+7. Now, toggle to "Preview". You should see your completed prompts rendered as a bulleted list.
 
 8. Toggle back to "Edit" and remove any other lines of text that you don't want displayed on your profile.
 
@@ -531,7 +531,7 @@ There are also lots of other online reading resources to help you learn Git:
 #### Training
 
 **GitHub's web-based educational programs**
-GitHub offers live trainings with a hands-on, project-based approach for those who love the command line and those who don't.
+GitHub offers live training with a hands-on, project-based approach for those who love the command line and those who don't.
 
 **Training for your company**
 GitHub offers in-person classes taught by highly-experienced educators. [Contact us](https://github.com/services/#contact) to ask your training-related questions.
