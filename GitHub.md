@@ -1,4 +1,6 @@
 # GitHub for Beginners
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSNdKSmb4TvaTpyPELqP7Ei2eb3LnWFD_rbw&s)
+
 This  is a documentation of GitHub for the newbies who have no idea of what GitHub is, in this documentation we will start with the basics like what Are GitHub and Git, creating an account on GitHub, a hello world exercise to learn Github's pull request workflow, setting up your profile, finding inspiration on GitHub, Downloading files from GitHub, uploading a project to GitHub, git, and GitHub learning resources. **Let's start your journey** 
 
 ## Table of content 
@@ -193,7 +195,7 @@ In this walk-through, you should not have any conflicts, so you are ready to mer
 3. Click Delete branch. Now that your pull request is merged and your changes are on main, you can safely delete the readme-edits branch. If you want to make more changes to your project, you can always create a new branch and repeat this process.
 4. Click back to the Code tab of your hello-world repository to see your published changes on `main`.
 
-####Conclusion
+#### Conclusion
 
 By completing this, you've learned to create a project and make a pull request on GitHub.
 
@@ -236,7 +238,7 @@ First, we'll add a picture to your profile. Your profile picture helps identify 
 
 5. Click **Set new profile picture**.
 
-Next, we'll add some basic information about yourself to share with other GitHub users. This information will display below your profile picture on your profile page.
+Next, we'll add some basic information about ourselves to share with other GitHub users. This information will be displayed below your profile picture on your profile page.
 
 #### Adding a bio
 1. On your profile page, under your profile picture, click Edit profile.
@@ -261,7 +263,7 @@ As we learned in the "[Hello World](Hello World)", ```README.md``` files are wri
 In the following steps, we'll create and edit your profile README.
 
 ##### Step 1: Create a new repository for your profile README
-1. In the upper-right corner of any page, select , then click New repository.
+1. In the upper-right corner of any page, select, then click New repository.
 ![image](https://docs.github.com/assets/cb-29762/mw-1440/images/help/repository/repo-create-global-nav-update.webp)
 
 2. Under "Repository name", type a repository name that matches your GitHub username. For example, if your username is "Sakshamv06", the repository name must be "Sakshamv06."
@@ -277,8 +279,7 @@ In the following steps, we'll create and edit your profile README.
 ##### Step 2: Edit the README.md file
 1. Click the  next to your profile README.
 
-![image]()
-
+![image](https://github.com/Sakshamv06/GitHub_Documentation/blob/main/Screenshot%20from%202024-06-26%2014-55-10.png)
 2. In the "Edit" view, you'll see some pre-populated text to get you started. On line 1, delete the text that says ```### Hi there``` and type ```# About me```.
 
  - In Markdown syntax, ```###``` renders the plain text as a small ("third-level") heading, while ## or # renders a second- and first-level heading respectively.
