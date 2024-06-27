@@ -63,6 +63,7 @@ To get started with GitHub, you'll need to create a free personal account on Git
 Every person who uses GitHub.com signs in to a personal account. Your personal account is your identity on GitHub.com and has a username and profile.
 
 ### Signing up for a new Personal account
+
 1. Navigate to https://github.com/.
 2. Click **Sign up**.
 3. Follow the prompts to create your personal account.
@@ -81,6 +82,7 @@ In this quickstart guide, you will:
 - Start and manage a new branch.
 - Make changes to a file and push them to GitHub as commits.
 - Open and merge a pull request.
+  
 #### Prerequisites
 
 - You must have a GitHub account. For more information, see "Creating an account on GitHub."
@@ -88,6 +90,7 @@ In this quickstart guide, you will:
 - You don't need to know how to code, use the command line, or install Git (the version control software that GitHub is built on).
 
 #### Step 1: Create a repository
+
 The first thing we'll do is create a repository. You can think of a repository as a folder that contains related items, such as files, images, videos, or even other folders. A repository usually groups together items that belong to the same "project" or thing you're working on.
 
 Often, repositories include a README file, a file with information about your project. README files are written in Markdown, which is an easy-to-read, easy-to-write language for formatting plain text. We'll learn more about Markdown in the next tutorial, "[Setting up your profile](#Setting up Your Profile)."
@@ -180,6 +183,7 @@ In this step, you'll open a pull request in your own repository and then merge i
 7. Click Create pull request.
 
 ##### Reviewing a pull request
+
 When you start collaborating with others, this is the time you'd ask for their review. This allows your collaborators to comment on, or propose changes to, your pull request before you merge the changes into the 'main' branch.
 
 #### Step 5: Merge your pull request
@@ -207,7 +211,9 @@ As part of that, we've learned how to:
 - Open and merge a pull request.
 
 ## Setting up your profile
+
 ### About your profile
+
 Your profile page on GitHub is a place where people can find out more about you. You can use your profile to:
 
 - Share your interests and skills.
@@ -223,9 +229,11 @@ You'll also learn the basics of Markdown syntax, which is what you'll use to for
 You must have a GitHub account. For more information, see "[Creating an account on GitHub](#Creating an account on GitHub)."
 
 ### Adding a profile picture and bio
+
 First, we'll add a picture to your profile. Your profile picture helps identify you across GitHub.
 
 #### Adding a profile picture
+
 1. In the upper-right corner of any page, click your existing profile avatar, then, from the dropdown menu, click Settings.
 
 2. Under "Profile Picture", select  Edit, then click Upload a photo....
@@ -241,6 +249,7 @@ First, we'll add a picture to your profile. Your profile picture helps identify 
 Next, we'll add some basic information about ourselves to share with other GitHub users. This information will be displayed below your profile picture on your profile page.
 
 #### Adding a bio
+
 1. On your profile page, under your profile picture, click Edit profile.
 
 2. Under "Bio", write one or two sentences about yourself, such as who you are and what you do.
@@ -254,6 +263,7 @@ Note: Keep the bio short; we'll add a longer description of your interests in yo
 5. Click Save.
 
 #### Adding a profile README
+
 Next, we'll create a special repository and README file that will be displayed directly on your profile page.
 
 Your profile README contains information such as your interests, skills, and background, and it can be a great way to introduce yourself to other people on GitHub and showcase your work.
@@ -263,6 +273,7 @@ As we learned in the "[Hello World](Hello World)", ```README.md``` files are wri
 In the following steps, we'll create and edit your profile README.
 
 ##### Step 1: Create a new repository for your profile README
+
 1. In the upper-right corner of any page, select, then click New repository.
 ![image](https://docs.github.com/assets/cb-29762/mw-1440/images/help/repository/repo-create-global-nav-update.webp)
 
@@ -277,6 +288,7 @@ In the following steps, we'll create and edit your profile README.
 6. Click Create Repository.
 
 ##### Step 2: Edit the README.md file
+
 1. Click the  next to your profile README.
 
 ![image](https://github.com/Sakshamv06/GitHub_Documentation/blob/main/Screenshot%20from%202024-06-26%2014-55-10.png)
@@ -301,6 +313,7 @@ In the following steps, we'll create and edit your profile README.
  - Use the "[Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)" to experiment with additional Markdown formatting.
  
 ##### Step 3: Publish your changes to your profile
+
 1. When you're happy with how your profile README looks in "Preview", and you're ready to publish it, click **Commit changes**...
 2. In the open dialog box, simply click again **Commit changes**.
 3. Navigate back to your profile page. You will see your new profile README displayed on your profile.
@@ -308,7 +321,9 @@ In the following steps, we'll create and edit your profile README.
 
 
 ## Finding inspiration on Github
+
 ### Introduction
+
 GitHub is a vast open-source community. You can explore GitHub to find interesting repositories, topics, code, people, and organizations that can inspire your own work, or support your own learning.
 
 Once you've found something that interests you, you can:
@@ -338,10 +353,12 @@ Once you star repositories or follow people, you will see updates on their activ
 Following people and organizations on GitHub is another good way to stay updated on projects and topics that interest you.
 
 ###### Following people
+
 1. Navigate to the user's profile page.
 2. Under the user's profile picture, click Follow.
 3. Optionally, to unfollow a user, click Unfollow.
 ###### Following organizations
+
 1. Navigate to the organization page you want to follow.
 
 2. In the top-right corner, click **Follow**.
@@ -359,8 +376,11 @@ GitHub.com is home to millions of open-source software projects, that you can co
 There are different ways to get a copy of a repository's files on GitHub. You can:
 
 - **Download** a snapshot of a repository's files as a zip file to your own (local) computer.
+  Use Case- You want to use or customize the content of the files, but you're not interested in applying version control.
 - **Clone** a repository to your local computer using Git.
+  Use Case- You want to work on a full copy of the repository on your local computer, using Git to track and manage your changes. You likely intend to sync these locally-made changes with the GitHub-hosted repository.
 - **Fork** a repository to create a new repository on GitHub.
+  Use Case- You want to use the original repository's data as a basis for your own project on GitHub. Or, you want to use the fork to propose changes to the original ("upstream") repository. After forking the repository, you still might want to clone the repository, so that you can work on the changes on your local computer.
 
 Each of these methods has its own use case, which we'll explain in the next section.
 
@@ -371,7 +391,7 @@ This tutorial focuses on downloading a repository's files to your local computer
 
 - You must have a GitHub account.
 
-#### Downloading a repository's files
+#### Downloading a repository
 
 1. Navigate to any repository of any person or organization.
 
@@ -379,7 +399,65 @@ This tutorial focuses on downloading a repository's files to your local computer
 ![image](https://docs.github.com/assets/cb-13128/mw-1440/images/help/repository/code-button.webp)
 3. Click  **Download ZIP**.
 
+#### Cloning a repository
+
+1. On GitHub.com, navigate to the main page of the repository.
+
+2. Above the list of files, click  Code.
+![image](https://docs.github.com/assets/cb-13128/mw-1440/images/help/repository/code-button.webp)
+
+3. Copy the URL for the repository.
+
+- To clone the repository using HTTPS, under "HTTPS", click.
+
+- To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click.
+
+- To clone a repository using GitHub CLI, click GitHub CLI, then click.
+  ![image](https://docs.github.com/assets/cb-60499/mw-1440/images/help/repository/https-url-clone-cli.webp)
+
+4. Open Terminal.
+
+5. Change the current working directory to the location where you want the cloned directory.
+
+6. Type `git clone`, and then paste the URL you copied earlier.
+```
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+7. Press Enter to create your local clone.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+#### Fork a repository
+
+You might fork a project to propose changes to the upstream repository. In this case, it's good practice to regularly sync your fork with the upstream repository. To do this, you'll need to use Git on the command line.
+
+1. On GitHub.com, navigate to any public repository.
+
+2. In the top-right corner of the page, click Fork.
+![image](https://docs.github.com/assets/cb-34352/mw-1440/images/help/repository/fork-button.webp)
+
+3. Under "Owner," select the dropdown menu and click an owner for the forked repository.
+
+4. By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
+
+5. Optionally, in the "Description" field, type a description of your fork.
+
+6. Optionally, select **Copy the DEFAULT branch only**.
+  For many forking scenarios, such as contributing to open-source projects, you only need to copy the default branch. If you do not select this option, all branches will be copied into the new fork.
+
+7. Click **Create fork**.
+```
+Note: If you want to copy additional branches from the upstream repository, you can do so from the Branches page. For more information, see "Creating and deleting branches within your repository."
+```
+
 #### Conclusion
+
 You now have a copy of the repository's files saved as a zip file on your local computer. You can edit and customize the files for your own purposes.
 
 ## Uploading a project to GitHub
@@ -463,7 +541,7 @@ To apply more sophisticated formatting, such as adding images, links, and footno
 
 You have now created a new repository, uploaded some files to it, and added a project README.
 
-If you set your repository visibility to "Public," the repository will be displayed on your personal profile and you can share the URL of your repository with others.
+If you set your repository visibility to "Public," the repository will be displayed on your personal profile and you can share the URL of your repository with others and even any random one sees your profile he can see your repo file, while if you set your repository visibility to "Private" the repo will be displayed on your profile but not visible to any other person who views your profile or even he have the repository's url.
 
 As you add, edit or delete files directly in the browser on GitHub, GitHub will track these changes ("commits"), so you can start to manage your project's history and evolution.
 
