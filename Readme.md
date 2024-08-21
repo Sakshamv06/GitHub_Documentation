@@ -1,7 +1,7 @@
 # GitHub for Beginners
 ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSNdKSmb4TvaTpyPELqP7Ei2eb3LnWFD_rbw&s)
 
-This  is a documentation of GitHub for the newbies who have no idea of what GitHub is, in this documentation we will start with the basics like what Are GitHub and Git, creating an account on GitHub, a hello world exercise to learn Github's pull request workflow, setting up your profile, finding inspiration on GitHub, Downloading files from GitHub, uploading a project to GitHub, git, and GitHub learning resources. **Let's start your journey** 
+This  is a documentation of GitHub for the newbies who have no idea of what GitHub is, in this documentation we will start with the basics like what is GitHub and Git, creating an account on GitHub, a hello world exercise to learn Github's pull request workflow, setting up your profile, finding inspiration on GitHub, Downloading files from GitHub, uploading a project to GitHub, git, and GitHub learning resources. **Let's start your journey** 
 
 ## Table of content 
 1. [About GitHub and Git](#About-GitHub-and-Git)
