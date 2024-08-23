@@ -159,57 +159,15 @@ You can make and save changes to the files in your repository. On GitHub, saved 
 
 These changes will only affect the `README` file on your `readme-edits` branch, so now this branch is different from `main`.
 
-#### Step 4: Open a pull request
-
-Now that you have changes on a branch off of `main`, you can open a pull request.
-
-Pull requests are key to working together on GitHub. When you open a pull request, you're asking someone to review your changes and merge them into their branch. Pull requests show the differences (called "diffs") between the branches.
-
-You can open a pull request as soon as you make a commit and start a discussion, even before the code is finished.
-
-In this step, you'll open a pull request in your own repository and then merge it yourself. It's a great way to practice the GitHub flow before working on larger projects.
-
-1. Click the **Pull requests** tab of your `hello-world` repository.
-
-2. Click **New pull request**.
-
-3. In the "Example Comparisons" box, select the branch you made, `readme-edits`, to compare with `main`.
-
-4. Look over your changes in the diffs on the Compare page and make sure they're what you want to submit.
-![image](https://docs.github.com/assets/cb-32937/mw-1440/images/help/repository/diffs.webp)
-5. Click **Create pull request**.
-
-6. Give your pull request a title and write a brief description of your changes. You can also add emojis, images, and GIFs.
-
-7. Click **Create pull request**.
-
-##### Reviewing a pull request
-
-When you start working with others, this is when you'd ask them to review your pull request. They can comment on or suggest changes to your pull request before you merge it into `main`.
-
-#### Step 5: Merge your pull request
-
-In this final step, you'll merge your `readme-edits` branch into the `main` branch. After you merge your pull request, the changes on `readme-edits` will be included in `main`.
-
-Sometimes, a pull request may cause conflicts with the code on `main`. If that happens, GitHub will warn you and won't let you merge until the conflicts are resolved. You can either fix the conflicts yourself or discuss them with your team.
-
-In this guide, you shouldn't have any conflicts, so you can go ahead and merge your branch into `main`.
-
-1. At the bottom of the pull request, click **Merge pull request** to merge the changes into `main`.
-2. Click **Confirm merge**. You'll get a message that the pull request was successfully merged and closed.
-3. Click **Delete branch**. Now that your pull request is merged, you can safely delete the `readme-edits` branch. If you want to make more changes, you can always create a new branch and repeat this process.
-4. Go back to the **Code** tab of your `hello-world` repository to see your changes in `main`.
-
 #### Conclusion
 
-By completing this tutorial, you've learned how to create a project and make a pull request on GitHub.
+By completing this tutorial, you've learned how to create a project on GitHub.
 
 Here's what you've accomplished:
 
 - Created a repository.
 - Started and managed a new branch.
 - Made changes to a file and committed them to GitHub.
-- Opened and merged a pull request.
 
 
 ## Setting up your profile
