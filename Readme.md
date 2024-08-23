@@ -76,7 +76,7 @@ During sign-up, you'll need to verify your email address. Without this verificat
 
 ### Introduction
 
-This tutorial will teach you the basics of GitHub, including how to use repositories, branches, commits, and pull requests. You'll create your own "Hello World" repository and learn how to use GitHub's pull request workflow, a popular way to work on code.
+This tutorial will teach you the basics of GitHub, including how to use repositories, branches, and commits. You'll create your own "Hello World" repository and learn how to use GitHub's pull request workflow, a popular way to work on code.
 
 In this guide, you will:
 
